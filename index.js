@@ -21,6 +21,12 @@ app.get('/getNames', (req, res) => {
     
 });
 
+app.get('/getMotivationQuotes', (req, res) => {
+    res.send([{quote :"Believe you can and your halfway there"},{ quote : "You miss 100% of the shots you don't take"}]);
+    
+});
+
+
 //Define your API routes here
 //Example: app.get('/api/users', getUsers);
 
