@@ -26,6 +26,11 @@ app.get('/getMotivationQuotes', (req, res) => {
     
 });
 
+app.get('/getCategories', (req, res) => {
+    res.send({success :"true", message : ["Love","Sad","Happy","Motivation","Success"]});
+    
+});
+
 
 //Define your API routes here
 //Example: app.get('/api/users', getUsers);
